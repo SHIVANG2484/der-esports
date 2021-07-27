@@ -345,7 +345,7 @@ h1, h2, h3, h4, h5, h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../img/hero-bg.jpg") top center no-repeat;
+  background: url("../img/background.gif") top center no-repeat;
   background-size: cover;
   position: relative;
   padding-top: 82px;
@@ -682,7 +682,7 @@ section {
   border: 1px solid #b9b9b9;
   padding: 15px;
   transition: 0.3s;
-  color: #111111;
+  color: black;
   border-radius: 0;
   display: flex;
   align-items: center;
@@ -1340,9 +1340,9 @@ section {
   font-weight: 600;
 } */
 
-.contact .php-email-form .error-message br + br {
+/* .contact .php-email-form .error-message br + br {
   margin-top: 25px;
-}
+} */
 
 /* .contact .php-email-form .sent-message {
   display: none;
@@ -1360,7 +1360,7 @@ section {
   padding: 15px;
 } */
 
-.contact .php-email-form .loading:before {
+/* .contact .php-email-form .loading:before {
   content: "";
   display: inline-block;
   border-radius: 50%;
@@ -1371,7 +1371,7 @@ section {
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
-}
+} */
 
 .contact .php-email-form .form-group {
   margin-bottom: 25px;
@@ -1429,7 +1429,7 @@ section {
 /*--------------------------------------------------------------
 # Blog
 --------------------------------------------------------------*/
-.blog {
+/* t.blog {
   padding: 40px 0 20px 0;
 }
 
@@ -1511,11 +1511,11 @@ section {
   border-radius: 4px;
 }
 
-.blog .entry .entry-content .read-more a:hover {
-  background: #e35052;
-}
+.blog .entry .entry-conent .read-more a:hover { */
+  /* background: #e35052;
+} */
 
-.blog .entry .entry-content h3 {
+/* .blog .entry .entry-content h3 {
   font-size: 22px;
   margin-top: 30px;
   font-weight: bold;
@@ -1930,7 +1930,7 @@ section {
   padding-left: 5px;
   color: #aaaaaa;
   font-size: 14px;
-}
+} */
 
 /*--------------------------------------------------------------
 # Footer
