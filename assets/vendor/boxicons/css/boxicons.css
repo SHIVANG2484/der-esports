@@ -20,7 +20,6 @@
     line-height: 1;
 
     display: inline-block;
-
     text-transform: none;
 
     speak: none;
@@ -29,7 +28,7 @@
 }
 .bx-ul
 {
-    margin-left: 2em;
+    margin-left: 5em;
     padding-left: 0;
 
     list-style: none;
