@@ -122,6 +122,9 @@
         opacity: 0;
     }
 }
+.hello{
+animation: fade-up 3s ease  1 bottom forwards;    
+}
 @-webkit-keyframes fade-right
 {
     0%
@@ -156,6 +159,7 @@
         opacity: 0;
     }
 }
+    
 @-webkit-keyframes fade-up
 {
     0%
