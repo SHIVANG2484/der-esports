@@ -174,12 +174,39 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 @media (max-width: 992px) {
-  .get-started-btn {
+  .describes {
     padding: 7px 20px 8px 20px;
     margin-right: 15px;
   }
 }
+/* which describes you better button  */
+.describes {
+  color: #fff;
+  border-radius: 4px;
+  padding: 7px 25px 8px 25px;
+  white-space: nowrap;
+  transition: 0.3s;
+  font-size: 14px;
+  display: inline-block;
+  height: 100px;
+  width: 200px;
+  text-align: center;
+  align-items: center;
+  border: 2px solid #ffc451;
+}
 
+.describes:hover {
+  background: #ffbb38;
+  color: #343a40;
+}
+
+@media (max-width: 992px) {
+  .describes {
+    padding: 7px 20px 8px 20px;
+    margin-right: 15px;
+  }
+}
+/* the end  */
 /*--------------------------------------------------------------
 # Navigation Menu
 --------------------------------------------------------------*/
@@ -531,7 +558,150 @@ section {
   font-family: "Poppins", sans-serif;
   color: #151515;
 }
+/* describes  */
+#des {
+  width: 100%;
+  height: 60vh;
+  background: url("../img/des-bg3.jpg") top center;
+  background-size: cover;
+  z-index: 10;
+  position: relative;
+}
 
+#des:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#des .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#des h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#des h1 span {
+  color: #ffc451;
+}
+
+#des h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+#des .icon-box {
+  padding: 30px 20px;
+  transition: ease-in-out 0.3s;
+  border: 1px solid rgba(255, 255, 255, 0.3);
+  height: 100%;
+  text-align: center;
+}
+
+#des .icon-box i {
+  font-size: 32px;
+  line-height: 1;
+  color: #ffc451;
+}
+
+#des .icon-box h3 {
+  font-weight: 700;
+  margin: 10px 0 0 0;
+  padding: 0;
+  line-height: 1;
+  font-size: 20px;
+  line-height: 26px;
+}
+
+#des .icon-box h3 a {
+  color: #fff;
+  transition: ease-in-out 0.3s;
+}
+
+#des .icon-box h3 a:hover {
+  color: #ffc451;
+}
+
+#des .icon-box:hover {
+  border-color: #ffc451;
+}
+
+@media (min-width: 1024px) {
+  #des {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #des {
+    height: auto;
+  }
+  #des h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #des h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/*--------------------------------------------------------------
+# Sections General
+--------------------------------------------------------------*/
+section {
+  padding: 60px 0;
+  overflow: hidden;
+}
+
+.section-title {
+  padding-bottom: 40px;
+}
+
+.section-title h2 {
+  font-size: 14px;
+  font-weight: 500;
+  padding: 0;
+  line-height: 1px;
+  margin: 0 0 5px 0;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  color: #aaaaaa;
+  font-family: "Poppins", sans-serif;
+}
+
+.section-title h2::after {
+  content: "";
+  width: 120px;
+  height: 1px;
+  display: inline-block;
+  background: #ffde9e;
+  margin: 4px 10px;
+}
+
+.section-title p {
+  margin: 0;
+  margin: 0;
+  font-size: 36px;
+  font-weight: 700;
+  text-transform: uppercase;
+  font-family: "Poppins", sans-serif;
+  color: #151515;
+}
+/* desribes  */
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
