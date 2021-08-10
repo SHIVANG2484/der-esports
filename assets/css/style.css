@@ -515,7 +515,9 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+/* des  */
 
+/* des  */
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
@@ -559,106 +561,155 @@ section {
   color: #151515;
 }
 /* describes  */
-#des {
-  width: 100%;
-  height: 60vh;
-  background: url("../img/des-bg3.jpg") top center;
-  background-size: cover;
+.about .container {
+  position: relative;
   z-index: 10;
-  position: relative;
 }
 
-#des:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
-  position: absolute;
-  bottom: 0;
-  top: 0;
-  left: 0;
-  right: 0;
+.about .content {
+  padding: 30px 30px 30px 0;
 }
 
-#des .container {
-  position: relative;
-  padding-top: 74px;
-  text-align: center;
-}
-
-#des h1 {
-  margin: 0;
-  font-size: 56px;
+.about .content h3 {
   font-weight: 700;
-  line-height: 64px;
+  font-size: 34px;
+  margin-bottom: 30px;
+}
+
+.about .content p {
+  margin-bottom: 30px;
+}
+
+.about .content .about-btn {
+  padding: 8px 30px 9px 30px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  border-radius: 50px;
+  transition: 0.3s;
+  text-transform: uppercase;
+  font-weight: 600;
+  font-size: 13px;
+  display: inline-flex;
+  align-items: center;
+  border: 2px solid #e03a3c;
 }
 
-#des h1 span {
-  color: #ffc451;
+.about .content .about-btn i {
+  font-size: 16px;
+  padding-left: 5px;
 }
 
-#des h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
+.about .content .about-btn:hover {
+  background: #e35052;
+  background: #e03a3c;
 }
 
-#des .icon-box {
-  padding: 30px 20px;
-  transition: ease-in-out 0.3s;
-  border: 1px solid rgba(255, 255, 255, 0.3);
-  height: 100%;
-  text-align: center;
+.about .icon-boxes .icon-box {
+  margin-top: 30px;
+
 }
 
-#des .icon-box i {
-  font-size: 32px;
-  line-height: 1;
-  color: #ffc451;
+.about .icon-boxes .icon-box i {
+  font-size: 40px;
+  color: #e03a3c;
+  margin-bottom: 10px;
 }
 
-#des .icon-box h3 {
-  font-weight: 700;
-  margin: 10px 0 0 0;
-  padding: 0;
-  line-height: 1;
+.about .icon-boxes .icon-box h4 {
   font-size: 20px;
-  line-height: 26px;
+  font-weight: 700;
+  margin: 0 0 10px 0;
 }
 
-#des .icon-box h3 a {
-  color: #fff;
-  transition: ease-in-out 0.3s;
+.about .icon-boxes .icon-box p {
+  font-size: 15px;
+  color: #848484;
 }
 
-#des .icon-box h3 a:hover {
-  color: #ffc451;
-}
-
-#des .icon-box:hover {
-  border-color: #ffc451;
-}
-
-@media (min-width: 1024px) {
-  #des {
-    background-attachment: fixed;
+@media (max-width: 1200px) {
+  .about .content {
+    padding-right: 0;
   }
 }
 
 @media (max-width: 768px) {
-  #des {
-    height: auto;
-  }
-  #des h1 {
-    font-size: 28px;
-    line-height: 36px;
-  }
-  #des h2 {
-    font-size: 20px;
-    line-height: 24px;
+  .about {
+    text-align: center;
   }
 }
+/* general  */
+section {
+  padding: 60px 0;
+  overflow: hidden;
+  position: relative;
+}
 
+.section-title {
+  text-align: center;
+  padding-bottom: 30px;
+  position: relative;
+}
+
+.section-title h2 {
+  font-size: 32px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+  padding-bottom: 20px;
+  position: relative;
+}
+
+.section-title h2::after {
+  content: '';
+  position: absolute;
+  display: block;
+  width: 50px;
+  height: 3px;
+  background: #e03a3c;
+  bottom: 0;
+  left: calc(50% - 25px);
+}
+
+.section-title p {
+  margin-bottom: 0;
+}
+
+.section-bg {
+  padding: 120px 0;
+  color: #fff;
+}
+
+.section-bg:before {
+  content: "";
+  background: #1b1b1b;
+  position: absolute;
+  bottom: 60px;
+  top: 60px;
+  left: 0;
+  right: 0;
+  transform: skewY(-3deg);
+  /* height: 60vh; */
+  
+}
+.des-btn {
+  font-family: "Raleway", sans-serif;
+  font-weight: 600;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 4px;
+  transition: 0.5s;
+  margin-top: 10px;
+  background: transparent;
+  border: 2px solid #ffc451;
+  color: #fff;
+}
+
+.des-btn:hover {
+  background: #ffc451;
+  border-color: #ffc451;
+  color: #151515;
+}
 /*--------------------------------------------------------------
 # Sections General
 --------------------------------------------------------------*/
