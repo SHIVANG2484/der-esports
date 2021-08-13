@@ -25,51 +25,117 @@
   <link href="assets/vendor/remixicon/remixicon.css" rel="stylesheet">
   <link href="assets/vendor/swiper/swiper-bundle.min.css" rel="stylesheet">
 
-  <!-- Template Main CSS File -->
+  
   <link href="assets/css/style.css" rel="stylesheet">
-<style>
-#esports {
-  width: 100%;
-  height: 100vh;
-  background: url("assets/img/esports.gif") top center;
+
+ <style>
+   .main-banner {
+  background: url("assets/img/esports.gif");
+  background-repeat: no-repeat;
+  background-position: center center;
   background-size: cover;
+  padding: 226px 0px 120px 0px;
   position: relative;
+  overflow: hidden;
 }
-/* #esports:before {
-  content: "";
-  background: rgba(0, 0, 0, 0.6);
+
+/* .main-banner:after {
+  content: '';
+  background-image: url(../images/baner-dec-left.png);
+  background-repeat: no-repeat;
   position: absolute;
-  bottom: 0;
-  top: 0;
   left: 0;
+  top: 100px;
+  width: 193px;
+  height: 467px;
+}
+
+.main-banner:before {
+  content: '';
+  background-image: url(../images/baner-dec-right.png);
+  background-repeat: no-repeat;
+  position: absolute;
   right: 0;
+  top: 100px;
+  width: 98px;
+  height: 290px;
+}
+
+.main-banner .left-content {
+  margin-right: 45px;
 } */
 
-#esports .container {
-  position: relative;
-  padding-top: 74px;
-  text-align: center;
+.main-banner .left-content h6 {
+  text-transform: uppercase;
+  font-size: 18px;
+  color: #fe3f40;
+  margin-bottom: 15px;
 }
 
-#esports h1 {
-  margin: 0;
-  font-size: 56px;
+.main-banner .left-content h2 {
+  font-size: 50px;
   font-weight: 700;
-  line-height: 64px;
+  color: #2a2a2a;
+  line-height: 72px;
+}
+
+.main-banner .left-content h2 em {
+  color: #03a4ed;
+  font-style: normal;
+}
+
+.main-banner .left-content h2 span {
+  color: #fe3f40;
+}
+
+.main-banner .left-content p {
+  margin: 20px 0px;
+}
+
+.main-banner .left-content form {
+  margin-top: 30px;
+  width: 470px;
+  height: 66px;
+  position: relative;
+}
+
+.main-banner .left-content form button {
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  display: inline-block;
+  background-color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+  color: #fe3f40;
+  text-transform: capitalize;
+  padding: 12px 25px;
+  border-radius: 23px;
+  letter-spacing: 0.25px;
+  outline: none;
+  border: none;
+}
+
+.main-banner .left-content form input {
+  width: 470px;
+  height: 66px;
+  background-color: #03a4ed;
+  border-radius: 33px;
+  border: none;
+  outline: none;
+  padding: 0px 25px;
   color: #fff;
-  font-family: "Poppins", sans-serif;
+  letter-spacing: 0.25px;
+  font-size: 15px;
+  font-weight: 300;
 }
 
-#esports h1 span {
-  color: #ffc451;
+.main-banner .left-content form input::placeholder {
+  color: #fff;
 }
 
-#esports h2 {
-  color: rgba(255, 255, 255, 0.9);
-  margin: 10px 0 0 0;
-  font-size: 24px;
-}
-</style>
+
+ </style>
 </head>
 
 <body>
@@ -116,57 +182,31 @@
     </div>
   </header><!-- End Header -->
  <!-- ======= Hero Section ======= -->
- <section id="esports" class="d-flex align-items-center justify-content-center">
-  <div class="container" data-aos="fade-up">
+ 
 
-    <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="150">
-      <div class="col-xl-6 col-lg-8">
-        <h1>Digital Entertainment Revolution</h1>
-        <h2>DER is Digital Entertainment
-          Revolution which aims to boost the
-          eSports era in India via
-          tournaments, sponsorships,
-          influencer marketing.</h2>
+    <div class="main-banner wow fadeIn" id="top" data-wow-duration="1s" data-wow-delay="0.5s">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-12">
+            <div class="row">
+              <div class="col-lg-6 align-self-center">
+                <div class="left-content header-text wow fadeInLeft" data-wow-duration="1s" data-wow-delay="1s">
+                  <h6 style="color: azure;">Welcome to Der</h6>
+                  <h2 style="color: azure;">Lorem ipsum dolor sit amet consectetur </h2>
+                  <p style="color: yellow;">Lorem ipsum dolor sit amet consectetur, adipisicing elit. A impedit repellendus nisi laborum porro molestiae inventore itaque iure provident, repellat quia. Vel assumenda maiores aliquam reiciendis quae atque magni ex, obcaecati, recusandae tenetur quis incidunt ullam fugit saepe exercitationem in a dolore ab? Distinctio perferendis cumque ea possimus atque minus, natus sunt temporibus, laboriosam dolorem est provident repellendus in saepe tenetur veniam nam odit at ut, corrupti eaque eos architecto vel a? Accusantium atque eligendi beatae debitis expedita, laudantium illum, dicta, neque temporibus nesciunt magni pariatur consequatur quas nihil doloremque aliquam laborum cupiditate dolor quibusdam libero eos praesentium. Similique, consequatur?.</p>
+               
+                </div>
+              </div>
+              <div class="col-lg-6">
+                <div class="right-image wow fadeInRight" data-wow-duration="1s" data-wow-delay="0.5s">
+                  <img src="assets/img/logo.png" alt="team meeting">
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
       </div>
     </div>
-<!-- <h2 class="text-center">Which discribes you better?</h1> -->
-    <!-- <div class="row gy-4 mt-5 justify-content-center" data-aos="zoom-in" data-aos-delay="250">
-      <div class="col-xl-2 col-md-4">
-        <div class="icon-box">
-          <i class="ri-cellphone-line"></i>
-          <h3><a href="#mobile-tournaments">MOBILE TOURNAMENTS</a></h3>
-        </div>
-      </div>
-      <div class="col-xl-2 col-md-4">
-        <div class="icon-box">
-          <i class="ri-computer-line"></i>
-          <h3><a href="#pc-tournaments">PC TOURNAMENTS</a></h3>
-        </div>
-      </div>
-      <div class="col-xl-2 col-md-4">
-        <div class="icon-box">
-          <i class="ri-money-dollar-box-fill"></i>
-          <h3><a href="#sponsorships">SPONSORSHIPS</a></h3>
-        </div>
-      </div>
-      <div class="col-xl-2 col-md-4">
-        <div class="icon-box">
-          <i class="ri-mic-line"></i>
-          <h3><a href="#influencer-marketing">INFLUENCER
-            MARKETING</a></h3>
-        </div>
-      </div>
-      <div class="col-xl-2 col-md-4">
-        <div class="icon-box">
-          <i class="ri-game-fill"></i>
-          <h3><a href="#esports-coaching">ESPORTS
-            COACHING</a></h3>
-        </div> 
-      </div> 
-    </div>  -->
-
-  </div> 
-</section><!-- End Hero --> 
  
 
   <!-- ======= Footer ======= -->
