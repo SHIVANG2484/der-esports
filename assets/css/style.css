@@ -515,6 +515,72 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+/* esports  */
+#esports {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/esports-bg.gif") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#esports:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.6);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#esports .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#esports h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#esports h1 span {
+  color: #ffc451;
+}
+
+#esports h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+
+@media (min-width: 1024px) {
+  #esports {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #esports {
+    height: auto;
+  }
+  #esports h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #esports h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* esports  */
 /* des  */
 .des {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/des-bgi.jpg") fixed center center;
