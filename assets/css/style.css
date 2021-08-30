@@ -342,7 +342,7 @@ h1, h2, h3, h4, h5, h6 {
   right: 0;
   left: 0;
   bottom: 0;
-  background: rgba(0, 0, 0, 0.9);
+  background: rgba(0, 0, 0, 0.69);
   transition: 0.3s;
   z-index: 999;
 }
@@ -515,18 +515,101 @@ h1, h2, h3, h4, h5, h6 {
     line-height: 24px;
   }
 }
+/*--------------------------------------------------------------
+# Features
+--------------------------------------------------------------*/
+.features .nav-tabs {
+  border: 0;
+}
+
+.features .nav-link {
+  border: 1px solid #b5ccdb;
+  padding: 15px;
+  transition: 0.3s;
+  color: #15222b;
+  border-radius: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.features .nav-link i {
+  padding-right: 15px;
+  font-size: 48px;
+}
+
+.features .nav-link h4 {
+  font-size: 18px;
+  font-weight: 600;
+  margin: 0;
+}
+
+.features .nav-link:hover {
+  color: #ff4a17;
+}
+
+.features .nav-link.active {
+  background: #ff4a17;
+  color: #fff;
+  border-color: #ff4a17;
+}
+
+@media (max-width: 768px) {
+  .features .nav-link i {
+    padding: 0;
+    line-height: 1;
+    font-size: 36px;
+  }
+}
+
+@media (max-width: 575px) {
+  .features .nav-link {
+    padding: 15px;
+  }
+  .features .nav-link i {
+    font-size: 24px;
+  }
+}
+
+.features .tab-content {
+  margin-top: 30px;
+}
+
+.features .tab-pane h3 {
+  font-weight: 600;
+  font-size: 26px;
+}
+
+.features .tab-pane ul {
+  list-style: none;
+  padding: 0;
+}
+
+.features .tab-pane ul li {
+  padding-bottom: 10px;
+}
+
+.features .tab-pane ul i {
+  font-size: 20px;
+  padding-right: 4px;
+  color: #ff4a17;
+}
+
+.features .tab-pane p:last-child {
+  margin-bottom: 0;
+}
 /* esports  */
 #esports {
   width: 100%;
   height: 100vh;
-  background: url("../img/esports-bg.gif") top center;
+  background: url("../img/esports-bg1.jpg") top center;
   background-size: cover;
   position: relative;
 }
 
 #esports:before {
   content: "";
-  background: rgba(0, 0, 0, 0.6);
+  background: rgba(0, 0, 0, 0.3);
   position: absolute;
   bottom: 0;
   top: 0;
@@ -581,6 +664,140 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /* esports  */
+/* influencer  */
+/* esports  */
+#influencer {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/brands-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#influencer:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#influencer .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#influencer h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#influencer h1 span {
+  color: #ffc451;
+}
+
+#influencer h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+
+@media (min-width: 1024px) {
+  #influencer {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #influencer {
+    height: auto;
+  }
+  #influencer h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #influencer h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* esports  */
+/* influncer */
+/* brand */
+#brand {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/influencer-bg.jpg") top center;
+  background-size: cover;
+  position: relative;
+}
+
+#brand:before {
+  content: "";
+  background: rgba(0, 0, 0, 0.3);
+  position: absolute;
+  bottom: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+}
+
+#brand .container {
+  position: relative;
+  padding-top: 74px;
+  text-align: center;
+}
+
+#brand h1 {
+  margin: 0;
+  font-size: 56px;
+  font-weight: 700;
+  line-height: 64px;
+  color: #fff;
+  font-family: "Poppins", sans-serif;
+}
+
+#brand h1 span {
+  color: #ffc451;
+}
+
+#brand h2 {
+  color: rgba(255, 255, 255, 0.9);
+  margin: 10px 0 0 0;
+  font-size: 24px;
+}
+
+
+@media (min-width: 1024px) {
+  #brand {
+    background-attachment: fixed;
+  }
+}
+
+@media (max-width: 768px) {
+  #brand {
+    height: auto;
+  }
+  #brand h1 {
+    font-size: 28px;
+    line-height: 36px;
+  }
+  #brand h2 {
+    font-size: 20px;
+    line-height: 24px;
+  }
+}
+
+/* brand  */
 /* des  */
 .des {
   background: linear-gradient(rgba(2, 2, 2, 0.5), rgba(0, 0, 0, 0.5)), url("../img/des-bgi.jpg") fixed center center;
