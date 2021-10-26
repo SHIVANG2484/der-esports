@@ -669,14 +669,14 @@ h1, h2, h3, h4, h5, h6 {
 #influencer {
   width: 100%;
   height: 100vh;
-  background: url("../img/brands-bg.jpg") top center;
+  background: url("../img/Saba-Blog-Infliencer-1.gif") top center;
   background-size: cover;
   position: relative;
 }
 
 #influencer:before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  /* background: rgba(0, 0, 0, 0.3); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -736,14 +736,14 @@ h1, h2, h3, h4, h5, h6 {
 #brand {
   width: 100%;
   height: 100vh;
-  background: url("../img/influencer-bg.jpg") top center;
+  background: url("../img/inboun5contentd-marketing.gif") top center;
   background-size: cover;
   position: relative;
 }
 
 #brand:before {
   content: "";
-  background: rgba(0, 0, 0, 0.3);
+  background: rgba(102, 67, 67, 0.1);
   position: absolute;
   bottom: 0;
   top: 0;
