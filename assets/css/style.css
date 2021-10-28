@@ -743,7 +743,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #brand:before {
   content: "";
-  background: rgba(102, 67, 67, 0.1);
+  /* background: rgba(102, 67, 67, 0.1); */
   position: absolute;
   bottom: 0;
   top: 0;
@@ -754,6 +754,7 @@ h1, h2, h3, h4, h5, h6 {
 #brand .container {
   position: relative;
   padding-top: 74px;
+  /* background: rgba(0, 0, 0, 0.1); */
   text-align: center;
 }
 
@@ -762,16 +763,17 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: #fff;
+  color: black;
   font-family: "Poppins", sans-serif;
 }
 
 #brand h1 span {
-  color: #ffc451;
+  color: black;
 }
 
 #brand h2 {
-  color: rgba(255, 255, 255, 0.9);
+  /* color: rgba(255, 255, 255, 0.9); */
+  color: #151515;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -2118,4 +2120,34 @@ section {
 .features .feature-icons .content .icon-box p {
   font-size: 15px;
   color: #848484;
+}
+/*--------------------------------------------------------------
+# Values
+--------------------------------------------------------------*/
+.values .box {
+  padding: 30px;
+  box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
+  text-align: center;
+  transition: 0.3s;
+  height: 100%;
+  border-radius: 15px;
+}
+.values .box img {
+  /* padding: 30px 50px; */
+  padding-bottom: 25px;
+  transition: 0.5s;
+  transform: scale(1.1);
+  border-radius: 5px;
+}
+.values .box h3 {
+  font-size: 24px;
+  color: black;
+  font-weight: 700;
+  margin-bottom: 18px;
+}
+.values .box:hover {
+  box-shadow: 0px 0 30px rgba(1, 41, 112, 0.08);
+}
+.values .box:hover img {
+  transform: scale(1);
 }
