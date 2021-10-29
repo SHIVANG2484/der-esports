@@ -514,9 +514,10 @@ section {
 /*--------------------------------------------------------------
 # About
 --------------------------------------------------------------*/
-.about .content {
+/* .about .content {
   background-color: #f6f9ff;
   padding: 40px;
+
 }
 
 .about h3 {
@@ -562,7 +563,7 @@ section {
 
 .about .btn-read-more:hover i {
   transform: translateX(5px);
-}
+} */
 
 /*--------------------------------------------------------------
 # Values
@@ -571,7 +572,7 @@ section {
   padding: 30px;
   box-shadow: 0px 0 5px rgba(1, 41, 112, 0.08);
   text-align: center;
-  transition: 0.3s;
+  transition: 0.5s;
   height: 100%;
 }
 
