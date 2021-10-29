@@ -700,7 +700,6 @@ h1, h2, h3, h4, h5, h6 {
   line-height: 64px;
   color: #fff;
   font-family: "Poppins", sans-serif;
-  color: #151515;
 }
 
 #influencer h1 span {
@@ -709,7 +708,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #influencer h2 {
   /* color: rgba(255, 255, 255, 0.9); */
-  color: #151515;
+  color: white;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
@@ -768,7 +767,7 @@ h1, h2, h3, h4, h5, h6 {
   font-size: 56px;
   font-weight: 700;
   line-height: 64px;
-  color: black;
+  color: white;
   font-family: "Poppins", sans-serif;
 }
 
@@ -778,7 +777,7 @@ h1, h2, h3, h4, h5, h6 {
 
 #brand h2 {
   /* color: rgba(255, 255, 255, 0.9); */
-  color: #151515;
+  color: white;
   margin: 10px 0 0 0;
   font-size: 24px;
 }
