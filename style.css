@@ -384,6 +384,7 @@ section {
 
 .navbar-mobile .getstarted {
   margin: 15px;
+  /* margin-left: 100px; */
 }
 
 .navbar-mobile .dropdown ul {
